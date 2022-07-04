@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Barberini in arte</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stile_catalogo.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg bg-light">
+  		<div class="container-fluid">
+    	<a class="navbar-brand" href="#">Barberini in arte</a>
+    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     	<span class="navbar-toggler-icon"></span>
+    	</button>
+   		 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        		<li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        		</li>
+        		<li class="nav-item">
+         <a class="nav-link" href="#">Famiglia</a>
+        		</li>
+        		<li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catalogo
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+            <li><a class="dropdown-item" href="#">Vai al Catalogo</a></li>
+            <li><a class="dropdown-item" href="#">Ricerca per persone</a></li>
+            <li><a class="dropdown-item" href="#">Ricerca per luoghi</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Ricerca per Enti</a></li>
+          </ul>
+        </li>
+    	</ul>
+      	<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="serch" aria-label="serch">
+        <button class="btn btn-outline-success" type="submit">cerca</button>
+      	</form>
+    	</div>
+  		</div>
+		</nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row mb-3" id="head_catalogo">
+			<div class="col-md-12 text-center mt-5 mb-5">
+				<h2>Catalogo</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<aside>
+					<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  						<ol class="breadcrumb">
+    						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    						<li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+  						</ol>
+					</nav>
+					<div class="checkbox-container">
+						<h3>Effettua ricerca per:</h3>
+						<div class="dropdown dropright mt-3 show">
+  						<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria haspopup="true" aria-expanded="true">Tipologia ogetti</button>
+  						<div class="dropdown-menu p-3 show">
+  							<input type="checkbox">
+  							<label>Sculture</label>
+  							<br>
+  							<input type="checkbox">
+  							<label>Dipinti</label>
+  							<br>
+  							<input type="checkbox">
+  							<label>Stampe</label>
+  							<br>
+  							<input type="checkbox">
+  							<label>Libri e manoscritti</label>
+  							<br>
+  							<input type="checkbox">
+  							<label>Oggetti vari</label>
+  							<br>
+  							<button type="button" class="btn btn-primary mt-2">Filtra</button>
+  						</div>
+  					</div>
+  					<div class="d-grid gap-2">
+  						<button class="btn btn-primary mt-1" type="button">Luoghi</button>
+  						<button class="btn btn-primary" type="button">Enti</button>
+						</div>
+					</div>
+				</aside>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-tabs">
+  							<li class="nav-item">
+    								<a class="nav-link active" aria-current="page" href="#">Tutti</a>
+  							</li>
+  							<li class="nav-item">
+    								<a class="nav-link disabled" href="#">Immagini</a>
+  							</li>
+  							<li class="nav-item">
+    								<a class="nav-link disabled" href="#">Testi</a>
+  							</li>
+  							<li class="nav-item">
+    								<a class="nav-link disabled">Multimedia</a>
+  							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card h-100 mt-5" style="width: 18rem;">
+							<img src="img/ICCD2977830_E_I0553a.jpg" class="card-img-top" alt="ritratto cardinale Carlo Barberini">
+  						<div class="card-body">
+    						<h6 class="card-title">Ritratto card. Carlo Barberini</h6>
+    						<p class="card-text">
+    							Creatore:
+    							<b><a href="http://viaf.org/viaf/69843936/#Voet,_Ferdinand,_1639-1689" target="_blank">Voet, Jacob Ferdinand<sup>VIAF</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>sec. XVII</b>
+    						</p>
+    						<p class="card-text">
+    						Ente detentore: <b>Ente religioso cattolico</b>
+    						</p>
+    						<p class="card-text">
+    							Riferibile a: <b><a href="http://viaf.org/viaf/6031652/#Barberini,_Carlo,_1630-1704" target="_blank">Carlo Barberini<sup>VIAF</sup></a></b>
+    						</p>
+    						<a href="#" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card h-100 mx-4 mt-5" style="width: 18rem;">
+  						<img src="img/ICCD4594090_SBAS RM 223004.jpg" class="card-img-top" alt="busto card. Francesco Barberini">
+  						<div class="card-body">
+   	 						<h6 class="card-title">Busto card. Francesco Barberini</h6>
+    						<p class="card-text">
+    							Creatore: <b><a href="http://viaf.org/viaf/49495767" target="_blank">Ottoni, Lorenzo<sup>VIAF</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>1680 circa</b>
+    						</p>
+    						<p class="card-text">
+    							Ente detentore: <b><a href="http://viaf.org/viaf/122643792" target="_blank">Galleria Nazionale d'arte antica<sup>VIAF</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Riferibile a: <b><a href="http://viaf.org/viaf/49275800" target="_blank">Francesco Barberini<sup>VIAF</sup></b>
+    						</p>
+    						<a href="item-catalogo.html" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card h-100 mt-5 ms-5" style="width: 18rem;">
+  						<img src="img/f6507c6ca693bcfc924c48c378584f65.jpg" class="card-img-top" alt="stampa allegoria dei Barberini">
+  						<div class="card-body">
+    						<h6 class="card-title">Allegoria della Famiglia Barberini</h6>
+    						<p class="card-text">
+    							Creatore: <b><a href="http://viaf.org/viaf/25540318" target="_blank">Greuter, Johann Friedrich<sup>VIAF</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>sec. XVII</b>
+    						</p>
+    						<p class="card-text">
+    							Ente detentore: <b><a href="http://viaf.org/viaf/152447230" target="_blank">Biblioteca Casanatense<sup>VIAF</sup></a></b>
+    						</p>
+    						<a href="#" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-4">
+						<div class="card h-100 mt-5" style="width: 18rem;">
+  						<img src="img/pianeta.jpe" class="card-img-top" alt="pianeta paramento liturgico">
+  						<div class="card-body">
+    						<h5 class="card-title">Pianeta</h5>
+    						<p class="card-text">
+    							Creatore: <b>anonimo, ambito romano</b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>sec. XVII, seconda metà</b>
+    						</p>
+    						<p class="card-text">
+    						Fornitore: <b><a href="https://www.culturaitalia.it/" title="vai al sito" target="_blank">CulturaItalia</a></b>
+    						</p>
+    						<p class="card-text">
+    							Riferibile a: <b><a href="http://viaf.org/viaf/6031652">Carlo Barberini<sup>VIAF</sup></a></b>
+    						</p>
+    						<a href="#" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card h-100 mt-5 mx-4" style="width: 18rem;">
+  						<img src="img/nozze-Barberini-Este.jpg" class="card-img-top" alt="manoscritto">
+  						<div class="card-body">
+    						<h6 class="card-title">Per le felicissime nozze de' serenissimi principi Francesco d'Este e Lucrezia Barberini duchi di Modena</h6>
+    						<p class="card-text">
+    							Autore: <b>Alfonso Molza</b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>1654</b>
+    						</p>
+    						<p class="card-text">
+    							Enti detentori: <b><a href="http://www.worldcat.org/oclc/79695774" target="_blank">elenco<sup>WorldCat</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Riferibile a: <b><a href="http://viaf.org/viaf/252292361" target="_blank">Lucrezia Barberini<sup>VIAF</sup></a></b>
+    						</p>
+    						<a href="#" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card h-100 mt-5 ms-5" style="width: 18rem;">
+  						<img src="img/Andrea_del_Sarto_-_Holy_Family_(Barberini)_-_WGA00405.jpg" class="card-img-top" alt="Sacra Famiglia, Andrea del Sarto">
+  						<div class="card-body">
+    						<h6 class="card-title">Sacra Famiglia Barberini</h6>
+    						<p class="card-text">
+    							Creatore: <b><a href="http://viaf.org/viaf/59101593" target="_blank">Andrea del Sarto<sup>VIAF</sup></a></b>
+    						</p>
+    						<p class="card-text">
+    							Data: <b>1528 circa</b>
+    						</p>
+    						<p class="card-text">
+    							Ente detentore: <b><a href="http://viaf.org/viaf/122643792" target="_blank">Galleria Nazionale d'arte antica<sup>VIAF</sup></a></b>
+    						</p>
+    						<a href="#" class="btn btn-primary mt-5">Vai a tutti i metadati</a>
+  						</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-12 mt-5">
+						<nav aria-label="Page navigation example">
+  						<ul class="pagination justify-content-center">
+    						<li class="page-item">
+      						<a class="page-link" href="#" aria-label="Previous">
+        						<span aria-hidden="true">&laquo;</span>
+      						</a>
+    						</li>
+    						<li class="page-item"><a class="page-link" href="#">1</a></li>
+    						<li class="page-item"><a class="page-link" href="#">2</a></li>
+    						<li class="page-item"><a class="page-link" href="#">3</a></li>
+    						<li class="page-item">
+      						<a class="page-link" href="#" aria-label="Next">
+        						<span aria-hidden="true">&raquo;</span>
+      						</a>
+    						</li>
+  						</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<div class="container-fluid" id="footer_cointener">
+		<div class="cointener">
+			<div class="row">
+				<h5>Barberini in arte</h5>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-list">
+						 <li>Abaout us</li>
+             <li>Contatti</li>
+             <li>Newsletter</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="footer-list">
+						 <li>Credits</li>
+             <li>Licenze</li>
+             <li>Copyrights</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="AndreaSanguigni">
+		<p class="mb-0 pb-1 pt-1 text-center">© 2022 Andrea Sanguigni</p>
+	</div>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script> 	
+</body>
+</html>

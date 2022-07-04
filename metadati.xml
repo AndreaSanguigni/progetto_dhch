@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo> 
+	<item numero="01" xml.id="MYPROJECT">
+		<identificativo>https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1200958209.html</identificativo>
+		<titolo> Busto CardinaleFrancesco Barberini</titolo>
+		<descrizione>
+			<immagine sorgente="img/ICCD4594090_SBAS RM 223004.jpg"/>Descrizione: busto in marmo raffigurante il cardinale Francesco Barberini è attribuito a <persona>Lorenzo Ottoni</persona> e presumibilmente realizzato intorno alla <data>seconda metà del sec. XVII.</data>
+			Attualmente conservato presso Palazzo Braschi, sede del Museo di Roma
+		</descrizione>
+		<metadati>
+			<autore><a href="http://viaf.org/viaf/49495767">Lorenzo Ottoni</a></autore>
+			<data>post 1680-ante 1685</data>
+			<soggetto><a href="http://viaf.org/viaf/49275800">Francesco Barberini</a></soggetto>
+			<titolo>Francesco Barberini</titolo>
+			<tipologia>busto</tipologia>
+			<risorsa><a href="https://dati.beniculturali.it/lodview-arco/resource/CatalogueRecordOA/1200958209">Catalogo generale dei Beni Culturali</a></risorsa>
+		</metadati>	
+	</item>
+</catalogo>

@@ -1,0 +1,35 @@
+body {
+	font-family: arial;
+}
+#head_catalogo {
+	background-color: #ffcc00;
+}
+h2 {
+	color: white;
+	font-size: 60px;
+	font-family: georgia;
+}
+#AndreaSanguigni {
+  background-color: white;
+}
+#footer_cointener {
+	background-color: dodgerblue
+}
+h5 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-family: georgia;
+  font-size: 20px;
+  color: white;
+}
+#headingOne{
+	font-family: arial;
+
+}
+#headingTwo{
+	font-family: arial;
+
+}
+h6{
+	font-family: arial;
+}
